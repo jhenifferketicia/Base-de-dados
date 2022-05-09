@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Center</title>
+    <link rel="stylesheet" type="text/css"  href="Projeto css.css" />
+	<link rel="icon" type="imagem/png" href="../Tech/imagens/tech.png" />
+</head>
+<body>
+
+</head>
+<body>
+
+<nav>
+  <ul class="menu">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Sobre</a></li>
+	  		<li><a href="#">O que fazemos?</a>
+	         	<ul>
+	                  <li><a href="#">Automação</a></li>
+	                  <li><a href="#">Planos de Internet</a></li>
+	                  <li><a href="#">Segurança</a></li>
+	       		</ul>
+			</li>
+		<li><a href="#">Informação</a></li>
+		<li><a href="#">Contato</a></li>
+		<li><a href="#">Cadastre-se</a></li>
+
+
+
+</ul>
+</nav>
+
+<!--buscar-->
+
+
+<form action="conexão.php" method="POST">
+
+  <label for="busca"></label>
+      <input type="search" id="busca" name="nome" placeholder="Procurar..">
+      <button type="submit">&#128269;</button>
+  </form> 
+
+<header>
+	<img src="../Tech/imagens/banner.png" width="100%">
+</header>
+
+<section>
+	<div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Seja Bem-vindo(a)</h2>
+                <p class="description description-primary">Para se conectar conosco, registre-se</p>
+                <p class="description description-primary">GRUPO AST</p>
+     
+            </div>    
+            <div class="second-column">
+                <h2 class="title title-second">Cadastre-se aqui</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>        
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div><!-- social media -->
+                <p class="description description-second">Preencha os dados abaixo para registrar-se:</p>
+				<br>
+                <form class="form" action="conexão.php" method="POST">
+                    <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="nome" name="nome">
+                    </label>
+                    <br>
+					<br>
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email" name="email">
+                    </label>
+                    <br>
+                    <br>
+
+                    <label class="label-input" for="">
+                        <i class="fa-regular fa-phone"></i>
+                        <input type="telefone" placeholder="Telefone" name="telefone">
+                    </label>
+                    
+                        
+                    <button class="btn btn-second">Enviar</button>        
+                </form>
+            </div><!-- second column -->
+        </div><!-- first content -->
+        <div class="content second-content">
+           
+            <div class="second-column">
+                <h2 class="title title-second">sign in to developer</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div><!-- social media -->
+             
+            </div><!-- second column -->
+        </div><!-- second-content -->
+    </div>
+    <script src="js/app.js"></script>
+                    
+</section>
+
+</body>
+
+	<footer>
+		<br>
+		<div class="main-content">
+			<div class="left box">
+				<h2> Sobre nós</h2>
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste facilis harum eos vel incidunt distinctio corrupti iure? Rem</p>
+				
+					<div class="social">
+						<a href="#"><span class="fab fa-facebook-f"></span></a>
+						<a href="#"><span class="fab fa-twitter"></span></a>
+						<a href="#"><span class="fab fa-instagram"></span></a>
+						<a href="#"><span class="fab fa-youtube"></span></a>
+					</div>
+				</div>
+			</div><!--left box-->
+			<div class="center box">
+				<h2>Endereço</h2>
+				<div class="content">
+					<div class="place">
+						<span class="fas fa-map-marker"></span>
+						<span class="text">Av. Adjar da Silva Casé, 800 - Indianópolis, Caruaru - PE, 55024-740</span>
+					</div>
+	
+					<div class="email">
+						<span class="fas fa-envelope"></span>
+						<span class="text">exemplo@exemplo.com</span>
+					</div>
+				</div>
+			</div>
+			<div class="right box">
+				<h2>Contato</h2>
+				<div class="content">
+					<form action="#">
+					
+						<div class="msg">
+							<div class="text">Envie-nos uma mensagem..</div>
+							<textarea rows="2" cols="25" required></textarea>
+						</div>
+						<div class="btn">
+							<button type="submit">Enviar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div><!--main-content-->
+		<div class="bottom">
+			<div class="center">
+				<span class="credit">Criado por <a href="#">GRUPO AST</a></span>
+				<span class="far fa-copyright">2022 Todos os diteitos reservados</span>
+			</div>
+		</div>
+	
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	</footer>
+
+
+</html>
