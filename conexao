@@ -1,0 +1,20 @@
+<?php
+
+$servidor= "localhost";
+$usuario= "root";
+$senha="";
+$dbname = "tech center";
+
+//criar  conexao
+$conexao =  mysql_connect($servidor,$usuario);
+if(!$conexao){
+    die("houve um erro, não conectado".mysqli_connect_error());
+
+}
+
+else{
+    echo"conectou caralho!";
+}
+
+
+?>
